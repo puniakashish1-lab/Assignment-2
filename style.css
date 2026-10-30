@@ -1,0 +1,138 @@
+/* Whole Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #0757b8;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 5px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* About Image */
+#about img {
+    border-radius: 50%;
+    margin: 15px;
+    object-fit: cover;
+}
+
+/* Skills Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+}
+
+th {
+    background-color: #0757b8;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #777;
+}
+
+/* Projects */
+.project {
+    background-color: white;
+    width: 50%;
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Form */
+input,
+textarea {
+    padding: 8px;
+    width: 250px;
+    max-width: 90%;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 70px;
+}
+
+button {
+    background-color: #0757b8;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #06458f;
+}
+
+/* Footer */
+footer {
+    background-color: #0757b8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 600px) {
+    nav a {
+        margin: 5px;
+    }
+
+    section {
+        padding: 18px 10px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    .project {
+        width: 95%;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+}
